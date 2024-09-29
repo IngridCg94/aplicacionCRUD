@@ -56,7 +56,7 @@ option{
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%; 
-    background-color: #f55174;
+    background-color: var(--primario);
     font-family: "Josefin Slab", serif;
 }
 
@@ -65,7 +65,7 @@ option{
 }
 
 .opcion_menu {
-    color: #ffffff;
+    color: var(--botones);
     text-decoration: none;
     margin: 0 1em; 
     font-family: "Josefin Slab", serif;
@@ -116,7 +116,7 @@ option{
 .dropdown-menu {
     display: none;
     flex-direction: column;
-    background-color: #f55174;
+    background-color: var(--primario);
     position: absolute;
     top: 100%;
     left: 0;
@@ -541,7 +541,7 @@ option{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    background-color: #ff5f75; /* Color de fondo rosa similar */
+    background-color: var(--primario); /* Color de fondo rosa similar */
     color: #000000;
     padding-right: 2px;
     font-family: var(--fuentePrincipal);
